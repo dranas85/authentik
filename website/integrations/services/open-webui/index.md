@@ -40,8 +40,8 @@ Enter the following details from the authentik provider:
 - Set **OAUTH_CLIENT_ID** to the Client ID copied from authentik.
 - Set **OAUTH_CLIENT_SECRET** to the Client Secret copied from authentik.
 - Set **OAUTH_PROVIDER_NAME** to `authentik`.
-- Set **OPENID_PROVIDER_URL** to <kbd>https://<em>authentik.company</em>/o/<em>slug</em>/.well-known/openid-configuration</kbd>.
-
+- Set **OPENID_PROVIDER_URL** to <kbd>https://<em>authentik.company</em>/application/o/<em>slug</em>/.well-known/openid-configuration</kbd>.
+*change slug to the slug of your app
 ## Configuration verification
 
 - Open your web browser and go to <kbd>https://<em>openwebui.company</em></kbd>.
